@@ -1,5 +1,6 @@
 # Mi-notebook-14-Hackintosh
 # Specification of Laptop
+
 | Specification | Details |
 | ------------- | ------------- |
 | Model         |   Mi notebook 14  |
@@ -13,6 +14,7 @@
 | Trackpad      |I2C ELAN2304|
 
 # Current Status
+
 1. Wifi Working
 2. Bluetooth working
 3. Audio working
@@ -27,7 +29,17 @@
 12. HDMI port working
 
 # What's not working
-I don’t know, what’s not working…Let me if you’ll found one.
+
+I don’t know, what’s not working…Let me know if you’ll found one.
 
 # How To Fix imessage and FaceTime
-Click 
+
+Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+
+#Credits
+
+Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [NVMeFix](https://github.com/acidanthera/NVMeFix), [OcBinaryData](https://github.com/acidanthera/OcBinaryData), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [RestrictEvents](https://github.com/acidanthera/RestrictEvents), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooInput](https://github.com/acidanthera/VoodooInput), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
+Thanks to [OpenIntelWireless](https://github.com/OpenIntelWireless) for providing [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware).
+Thanks to [RehabMan](https://github.com/RehabMan) for providing [OS-X-Clover-Laptop-Confi(OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
+Thanks to [Sniki](https://github.com/Sniki) for providing [EAPD-Codec-Commander](EAPD-Codec-Commander).
+Thanks to [VoodooI2C](https://github.com/VoodooI2C) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
