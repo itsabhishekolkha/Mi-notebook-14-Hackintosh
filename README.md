@@ -43,5 +43,5 @@ Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservic
 * Thanks to [RehabMan](https://github.com/RehabMan) for providing [OS-X-Clover-Laptop-Confi(OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
 * Thanks to [Sniki](https://github.com/Sniki) for providing [EAPD-Codec-Commander](EAPD-Codec-Commander).
 * Thanks to [VoodooI2C](https://github.com/VoodooI2C) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
-* Thanks to [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
-* Last but not least Thanks to [Me](https://github.com/itsabhishekolkha/)
+* Thanks to [ComboJack.](https://github.com/hackintosh-stuff/ComboJack)
+* Last but not least Thanks to [Me.](https://github.com/itsabhishekolkha/)
