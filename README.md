@@ -16,6 +16,11 @@
 | Wireless card | ntel Wireless AC 9462|
 | Trackpad      |I2C ELAN2304|
 
+# OpenCore
+
+* Current OpenCore version of EFI is-
+*     OpenCore 0.6.9
+
 # Current Status
 
 * Wifi Working
