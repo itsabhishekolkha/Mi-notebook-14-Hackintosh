@@ -35,7 +35,8 @@ I don’t know, what’s not working…Let me know if you’ll found one.
 # How To Fix imessage and FaceTime
 
 Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
-
+#   NOTE:-
+Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
 # Credits
 
 * Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [NVMeFix](https://github.com/acidanthera/NVMeFix), [OcBinaryData](https://github.com/acidanthera/OcBinaryData), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [RestrictEvents](https://github.com/acidanthera/RestrictEvents), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooInput](https://github.com/acidanthera/VoodooInput), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
