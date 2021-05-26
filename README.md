@@ -1,5 +1,5 @@
 # Mi-notebook-14-Hackintosh
-# Specification of Laptop
+# Configuration
 
 | Specification | Details |
 | ------------- | ------------- |
