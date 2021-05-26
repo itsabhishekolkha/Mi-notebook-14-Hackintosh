@@ -1,2 +1,33 @@
 # Mi-notebook-14-Hackintosh
-Specification of Laptop
+# Specification of Laptop
+| Specification | Details |
+| ------------- | ------------- |
+| Model         |   Mi notebook 14  |
+| Processor     |   intel core (i3-10110U/ i5-10210U/ i7-10510U) |
+| Generation.   | 10th Gen. Comet Lake|
+| Memory        | 8GB 2666MHz DDR4 RAM|
+| Storage       |SATA 3 SSD, NVMe SSD|
+| Graphics      | Integrated intel UHD, NVIDIA® GeForce® MX350|
+| Sound card    | Realtek ALC256(layout-id: 69)|
+| Wireless card | ntel Wireless AC 9462|
+| Trackpad      |I2C ELAN2304|
+
+# Current Status
+1. Wifi Working
+2. Bluetooth working
+3. Audio working
+4. Battery Status working
+5. Keyboard working with all functions(Alt=command, windows= Option etc.)
+6. Touchpad working with all gestures
+7. HandOff working( if you have an iPhone and iPad)
+8. Sleep working properly
+9. Camera Working
+10. FaceTime and iMessage will work after SMBIOS edit
+11. Mic working(by using an additional app called ComboJack)
+12. HDMI port working
+
+# What's not working
+I don’t know, what’s not working…Let me if you’ll found one.
+
+# How To Fix imessage and FaceTime
+Click 
