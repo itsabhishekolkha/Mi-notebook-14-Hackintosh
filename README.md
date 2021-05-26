@@ -21,6 +21,10 @@
 * Current OpenCore version of EFI is-
 *     OpenCore 0.6.9
 
+# YouTude Guide For Installing
+
+* will update ASAP
+
 # Current Status
 
 * Wifi Working
