@@ -1,4 +1,7 @@
 # Mi-notebook-14-Hackintosh
+
+![image](https://user-images.githubusercontent.com/77840685/119644074-1c78ee00-be3a-11eb-9a62-0cc78fad47bb.png)
+
 # Configuration
 
 | Specification | Details |
