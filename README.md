@@ -23,7 +23,7 @@
 
 # YouTude Guide For Installing
 
-* will update ASAP
+* [Installing Video Guide](https://youtu.be/4LgyTZQ3jfQ)
 
 # Current Status
 
