@@ -47,6 +47,11 @@ I don’t know, what’s not working…Let me know if you’ll found one.
 # How To Fix imessage and FaceTime
 
 Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+
+# Mic Fixing
+
+Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
+
 #   NOTE:-
 Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
 # Credits
