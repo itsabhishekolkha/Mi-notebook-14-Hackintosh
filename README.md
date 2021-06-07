@@ -24,6 +24,8 @@
 # YouTude Guide For Installing
 
 * [Installing Video Guide](https://youtu.be/4LgyTZQ3jfQ)
+* You can follow this guide to install MacOS In your Mi Notebook 14.
+* Don't forgot to subscribe...it means a lot me.:D
 
 # Current Status
 
@@ -60,7 +62,7 @@ Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 
 # MacOS HiDPI Guide
 
-[Click Here.](https://github.com/xzhih/one-key-hidpi)
+MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 
 
 #   NOTE:-
