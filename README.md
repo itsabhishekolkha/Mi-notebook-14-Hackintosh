@@ -48,9 +48,16 @@ I don’t know, what’s not working…Let me know if you’ll found one.
 
 Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
 
-# Mic Fixing
+# Microphone Fix(Headset)
 
 Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
+
+* Follow given documentation to install combojack.
+* Go to system Preferences > Sound > Input and choose Line In as input device.
+* Insert headphone, combojack pop-up will appear, select headset from the list.
+* If you still face any issue disable ambient noice cancellation.
+* you are good to go.
+
 
 #   NOTE:-
 Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
