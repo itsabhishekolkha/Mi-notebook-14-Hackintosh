@@ -58,6 +58,10 @@ Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 * If you still face any issue disable ambient noice cancellation.
 * you are good to go.
 
+# MacOS HiDPI Guide
+
+[Click Here.](https://github.com/xzhih/one-key-hidpi)
+
 
 #   NOTE:-
 Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
