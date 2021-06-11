@@ -1,6 +1,7 @@
-# Mi-notebook-14-Hackintosh
+# macOS  on Mi NoteBook 14
 
-![image](https://user-images.githubusercontent.com/77840685/119644074-1c78ee00-be3a-11eb-9a62-0cc78fad47bb.png)
+![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
+
 
 # Configuration
 
@@ -16,10 +17,29 @@
 | Wireless card | intel Wireless AC 9462|
 | Trackpad      |I2C ELAN2304|
 
+# Repo Updates
+    This repo is currently compatible with macOS Big Sur.
+
+
+*    OpenCore Updates
+*     0.7.0 Updating Soon
+*    Major changes in Repository on 
+*     Fri 11 Jun 2021
+
 # OpenCore
 
 * Current OpenCore version of EFI is-
 *     OpenCore 0.6.9
+
+# DISCLAIMER
+* For best results, read the entire README before you start and follow the install instruction throughly.
+* I am not responsible for any damages you may cause.
+* Should you find an error or improve anything — whether in the config or in the documentation — please consider opening an issue or pull request.
+* Please do not clone or download the main branch for daily use: it may include unstable code just because it is my repository.
+
+* If you find this bootloader configuration useful, consider giving it a star to make it more visible.
+* If you find my work useful, please consider donating via **PhonePay**, **Gpay** and **Paytm** on **9530033510**:heart:
+
 
 # YouTude Guide For Installing
 
