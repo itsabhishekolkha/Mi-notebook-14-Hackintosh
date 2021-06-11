@@ -149,6 +149,13 @@ Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 </details>
 
+<details>
+<summary><strong>Booting MacOS without installer pendrive</strong></summary>
+
+[Click Me](https://www.youtube.com/watch?v=qmYEQoFRFH0&list=LL&index=1)
+    </details>
+
+
 # NOTE 
 
 **Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.**
