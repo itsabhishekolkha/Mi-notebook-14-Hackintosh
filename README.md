@@ -114,9 +114,6 @@ For example, you can turn off `Force Click` in `System Preferences -> Trackpad` 
 Suggested configuration:
     
 ![image](https://user-images.githubusercontent.com/77840685/121724879-253e1500-cb06-11eb-9576-2f4843ec79db.png)
-
-
-
 </details>
 
 <details>
@@ -135,30 +132,7 @@ Default **SMBIOS** settings of this repo is `MacBookPro16,3` ~~`MacBookPro14,1`~
 </details>
 
 <details>
-<summary><strong>Sleep & Hibernation settings</strong></summary>
-
-**Sleep** function works flawlessly (both via software and via clamshell) like **hibernation** (suspend to disk or S4 sleep). In order to get automatic sleep working properly like real Macs, the following settings are mandatory: 
-```
-sudo pmset -a standby 0
-sudo pmset -a powernap 0 
-sudo pmset -a proximitywake 0
-sudo pmset -a tcpkeepalive 0
-sudo pmset -a womp 0
-```
-- `powernap` will wake up the system from time to time to check mail, make Time Machine backups, etc...
-- `proximitywake` can wake your machine when an iDevice is near.
-- `tcpkeepalive` has resolved periodic wake events after setting up iCloud.
-- `womp` is wake on lan.
-
-Default macOS setting is **hibernatemode 3** i.e. **sleep mode**.
-
-**After every update, ALL these settings should be reapplied manually!**
-
-Suggested configuration in `System Preferences -> Bluetooth -> Advanced` for **Bluetooth devices** for avoiding random wake events during sleep:
-
-![image](https://user-images.githubusercontent.com/77840685/121725438-e5c3f880-cb06-11eb-8b57-055ebb26c8eb.png)
-
-### Microphone Fix(Headset)
+    <Summary><strong>Microphone Fix</strong></summary>
 
 Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 
@@ -167,21 +141,24 @@ Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 * Insert headphone, combojack pop-up will appear, select headset from the list.
 * If you still face any issue disable ambient noice cancellation.
 * you are good to go.
+</details>
 
-### MacOS HiDPI Guide
+<details>
+    <Summary><strong>MacOS HiDPI</strong></summary>
 
 MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
+</details>
 
+# NOTE 
 
-##   NOTE:-
-Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
+**Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.**
 
 ## Update tracker
 
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 11.4 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 | Default Bootloader|
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.0 | Default Bootloader|
 | [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | Kext/process/framework/library patcher |
 | [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
 | [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 | Handle/fix onboard audio |
