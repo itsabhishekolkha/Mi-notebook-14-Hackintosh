@@ -2,6 +2,62 @@
 
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
+#### This repo is currently compatible with macOS Big Sur...
+|     macOS Big Sur      |    
+|------------------------|
+|     11.4   (20F71)     |     
+|     11.3.1 (20E241)    |     
+|     11.3   (20E232)    |    
+|     11.2.3 (20D91)     |     
+|     11.2.2 (20D80)     |     
+|     11.2.1 (20D74)     |    
+|     11.2   (20D64)     |     
+|     11.1   (20C69)     | 
+|     11.0.1 (20B29)     |
+
+
+
+### DISCLAIMER
+* For best results, read the entire README before you start and follow the install instruction throughly.
+* I am not responsible for any damages you may cause.
+* Should you find an error or improve anything — whether in the config or in the documentation — please consider opening an issue or pull request.
+* Please do not **clone or download** the main branch for daily use: it may include u**nstable code** just because it is my repository.
+
+* If you find this bootloader configuration useful, consider **giving** it **a star** to make it more visible.
+* If you find my work useful, please consider donating via **PhonePay**, **Gpay** and **Paytm** on **9530033510**:heart:
+
+### Introduction
+This repo contains information for getting macOS working on a **mi NoteBook 14** (all Edition) laptop.
+
+This is intended to create a "fully" functional (as far as possible) hackintosh for the Mi noteBook 14. If you would like to get started with creating a hackintosh on your Mi NoteBoook 14 but have non experience, I would highly recommend following [Dortania's OpenCore Install guide](https://dortania.github.io/OpenCore-Install-Guide/) and then returning here for troubleshooting. With each new release of macOS we need to resolve each new "minor issue" we run into. The installation is not perfect yet since it's a continuos work-in-progress, but I'm glad to say that **I learned a lot in the meantime**. All of the steps I made to get to this point were a result of countless hours of reading along with trial and error. I am by no means an expert so any help to get this project functional is very appreciated!
+
+### Summary
+
+* The **compatibility** is **very good** for the most part, most of the stuff works like it would on a real MacBook, including camera, audio, touchpad, iCloud services.
+* The **experience** is **pleasant**, as the laptop is smooth and responsive under macOS Big Sur.
+* **Battery life** is **quite great** (from personal experience it lasts from **7 to 8 hours** for light works depending on its age with a behaviour very similar to Windows 10 as shown in the macOS menu bar screenshots below).
+* The **Intel WiFi** card can be replaced with a Broadcom one, but the Intel card is now **functional albeit not operating at full speeds** (however it is fine for most use cases). With the latest `AirportItlwm.kext` even **Handoff** and **Continuity** features are working, but with a very limited support for AirDrop and Apple Watch unlocking (see [Changelog for OpenIntelWireless release v. 1.2.0 stable](https://github.com/OpenIntelWireless/itlwm/releases)).
+For any issues about `AirportItlwm.kext` please refer first to [**OpenIntelWireless Troubleshooting page**](https://openintelwireless.github.io/itlwm/Troubleshooting.html#kernel-extension-loading-status) and then to [**OpenIntelWireless Gitter Page**](https://gitter.im/OpenIntelWireless/itlwm?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+![image](https://user-images.githubusercontent.com/77840685/121717499-de98ec80-cafe-11eb-97c1-dff7d27d1848.png)
+
+**This repository is for personal purposes**
+
+
+## YouTude Guide For Installing
+
+* [Installing Video Guide](https://youtu.be/4LgyTZQ3jfQ)
+* You can follow this guide to install MacOS In your Mi Notebook 14.
+* Don't forgot to subscribe...it means a lot me.:D
+
+
+### Generate your own SMBIOS Information
+
+
+For privacy reasons, all SMBIOS information has been wiped out in the configuration file `EFI/OC/config.plist`. You need to generate your unique `SMBIOS` info by yourself (recommend to use [**CorpNewt's GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS)), and inject them into your `config.plist`.
+- With every **EFI update** you retrieve from [here](https://github.com/itsabhishekolkha/Mi-notebook-14-Hackintosh), please, remember to transfer your Device details under `PlatformInfo -> Generic` in your `config.plist`.
+
+<img width="698" alt="AboutThisMac" src="https://user-images.githubusercontent.com/77840685/121720983-5bc56100-cb01-11eb-9a6c-492e033b347f.png">
 
 # Configuration
 
@@ -17,7 +73,23 @@
 | Wireless card | intel Wireless AC 9462|
 | Trackpad      |I2C ELAN2304|
 
-# Repo Updates
+### Status
+- [x] **Intel UHD 620** Graphics card
+- [x] **Intel Wifi**
+- [x] **Bluetooth**
+- [x] **Audio**
+- [x] **Battery** status
+- [x] **Keyboard** working with all **functions**(Alt=command, windows= Option etc.)
+- [x] **Touchpad** working with all **gestures**
+- [x] **HandOff**
+- [x] **Sleep**
+- [x] **Camera**
+- [x] **Face Time and imessage** will work after SMBIOS edit.
+- [x] **Mic** Will working... Follow the guide below.
+- [x] **HDMI** up to two 4K @60 Hz monitors
+- [x] **Native Color Profile**
+
+## Repo Updates
     This repo is currently compatible with macOS Big Sur.
 
 
@@ -26,51 +98,67 @@
 *    Major changes in Repository on 
 *     Fri 11 Jun 2021
 
-# OpenCore
+## OpenCore
 
-* Current OpenCore version of EFI is-
+* Current OpenCore version of **EFI** is-
 *     OpenCore 0.6.9
 
-# DISCLAIMER
-* For best results, read the entire README before you start and follow the install instruction throughly.
-* I am not responsible for any damages you may cause.
-* Should you find an error or improve anything — whether in the config or in the documentation — please consider opening an issue or pull request.
-* Please do not clone or download the main branch for daily use: it may include unstable code just because it is my repository.
+## Post - Install Settings
+<details>
+<summary><strong>Enable Tap (with one finger) for Touchpad</strong></summary>
 
-* If you find this bootloader configuration useful, consider giving it a star to make it more visible.
-* If you find my work useful, please consider donating via **PhonePay**, **Gpay** and **Paytm** on **9530033510**:heart:
+Starting from [VoodooI2C v. 2.4.1](https://github.com/VoodooI2C/VoodooI2C/releases), the **click down** action is emulated to **force touch**, which causes the failure of click down and drag gestures.
+
+For example, you can turn off `Force Click` in `System Preferences -> Trackpad` or choose three finger drag in `System Preferences -> Accessibility -> Mouse & Trackpad -> Trackpad Options`
+
+Suggested configuration:
+    
+![image](https://user-images.githubusercontent.com/77840685/121724879-253e1500-cb06-11eb-9576-2f4843ec79db.png)
 
 
-# YouTude Guide For Installing
 
-* [Installing Video Guide](https://youtu.be/4LgyTZQ3jfQ)
-* You can follow this guide to install MacOS In your Mi Notebook 14.
-* Don't forgot to subscribe...it means a lot me.:D
+</details>
 
-# Current Status
+<details>
+<summary><strong>Enable Apple Services</strong></summary>
 
-* Wifi Working
-* Bluetooth working
-* Audio working
-* Battery Status working
-* Keyboard working with all functions(Alt=command, windows= Option etc.)
-* Touchpad working with all gestures
-* HandOff working( if you have an iPhone and iPad)
-* Sleep working properly
-* Camera Working
-* FaceTime and iMessage will work after SMBIOS edit
-* Mic working(by using an additional app called ComboJack)
-* HDMI port working
+Default **SMBIOS** settings of this repo is `MacBookPro16,3` ~~`MacBookPro14,1`~~ ~~`MacBookPro15,2`~~
+1. Launch `Terminal` app
+2. Copy the following script, paste it into the `Terminal` window, then press `Enter`
+   ```bash
+   git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && ./GenSMBIOS.command 
+   ```
+3. Type `2`, then press `Enter`
+4. Drag your `config.plist` inside the `Terminal` window
+5. Type `3`, then press `Enter`
+6. Type `MacBookPro16,3`, then press `Enter`
+</details>
 
-# What's not working
+<details>
+<summary><strong>Sleep & Hibernation settings</strong></summary>
 
-I don’t know, what’s not working…Let me know if you’ll found one.
+**Sleep** function works flawlessly (both via software and via clamshell) like **hibernation** (suspend to disk or S4 sleep). In order to get automatic sleep working properly like real Macs, the following settings are mandatory: 
+```
+sudo pmset -a standby 0
+sudo pmset -a powernap 0 
+sudo pmset -a proximitywake 0
+sudo pmset -a tcpkeepalive 0
+sudo pmset -a womp 0
+```
+- `powernap` will wake up the system from time to time to check mail, make Time Machine backups, etc...
+- `proximitywake` can wake your machine when an iDevice is near.
+- `tcpkeepalive` has resolved periodic wake events after setting up iCloud.
+- `womp` is wake on lan.
 
-# How To Fix imessage and FaceTime
+Default macOS setting is **hibernatemode 3** i.e. **sleep mode**.
 
-Click [here.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+**After every update, ALL these settings should be reapplied manually!**
 
-# Microphone Fix(Headset)
+Suggested configuration in `System Preferences -> Bluetooth -> Advanced` for **Bluetooth devices** for avoiding random wake events during sleep:
+
+![image](https://user-images.githubusercontent.com/77840685/121725438-e5c3f880-cb06-11eb-8b57-055ebb26c8eb.png)
+
+### Microphone Fix(Headset)
 
 Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 
@@ -80,13 +168,38 @@ Download [Combojack.](https://github.com/hackintosh-stuff/ComboJack)
 * If you still face any issue disable ambient noice cancellation.
 * you are good to go.
 
-# MacOS HiDPI Guide
+### MacOS HiDPI Guide
 
 MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 
 
-#   NOTE:-
+##   NOTE:-
 Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.
+
+## Update tracker
+
+| Item | Version | Remark |
+| :--- | :--- | :--- |
+| MacOS | 11.4 | |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 | Handle/fix onboard audio |
+| [CodecCommander](https://github.com/Sniki/EAPD-Codec-Commander/releases) | 2.7.2 | Fix headphone audio switch |
+| [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.0.0 beta| Handle native Wi-Fi card |
+| [NullEthernet](https://bitbucket.org/RehabMan/OS-X-Null-Ethernet/downloads/) | 1.0.6 | Fake Ethernet card |
+| [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases) | 1.0.4 | Disable TouchID|
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 | Fix for NVMe SSDs |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.1 | Block unwanted processes |
+| [VoodooI2C](https://github.com/alexandred/VoodooI2C/releases) | 2.5.2 | Handle I2C device |
+| [VoodooI2CHID](https://github.com/alexandred/VoodooI2C/releases) | 2.5.2 | Touchpad I2C satellite |
+| [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases) | 2.2.3 | Enable keyboard, alternative trackpad driver |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 | SMC chip emulation |
+| [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.6 | Inject USB ports |
+
 # Credits
 
 * Huge Thanks to [Daliansky and stevezhengshiqi](https://github.com/daliansky/)
