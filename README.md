@@ -103,6 +103,16 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 * Current OpenCore version of **EFI** is-
 *     OpenCore 0.7.0
 
+### Benchmark Tests
+
+* **CPU**(Performance of CPUs at performing everydays task.)
+
+![image](https://user-images.githubusercontent.com/77840685/121767659-3c691b00-cb77-11eb-8377-f627e84367ea.png)
+ 
+* **Compute**(Performance of GPUs at performing common compute task.)
+
+![image](https://user-images.githubusercontent.com/77840685/121767702-9073ff80-cb77-11eb-8fe0-6570506de890.png)
+ 
 ## Post - Install Settings
 <details>
 <summary><strong>Enable Tap (with one finger) for Touchpad</strong></summary>
