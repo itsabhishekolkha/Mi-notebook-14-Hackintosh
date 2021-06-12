@@ -96,7 +96,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 *    OpenCore Updates
 *     0.7.0 Updated
 *    Major changes in Repository on 
-*     Fri 11 Jun 2021
+*     Fri 12 Jun 2021
 
 ## OpenCore
 
