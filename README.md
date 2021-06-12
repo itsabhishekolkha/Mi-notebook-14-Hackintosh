@@ -155,6 +155,22 @@ MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 [Click Me](https://www.youtube.com/watch?v=qmYEQoFRFH0&list=LL&index=1)
     </details>
 
+<details>
+    <Summary><strong>Mi NoteBook 14 Colour Profile</strong></summary>
+    
+   ### Installation
+    
+- Run the following command in Terminal-
+(sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro-Hackintosh/main/ColorProfile/one-key-colorprofile.sh)
+
+- Or you can manually put the color profile into /Library/ColorSync/Profiles/
+
+- Open System Preferences -> Displays -> Color
+
+- Select NV156FHM-N61 profile
+
+- Reboot
+    </details>
 
 # NOTE 
 
