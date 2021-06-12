@@ -90,7 +90,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **Native Color Profile**
 
 ## Repo Updates
-    This repo is currently compatible with macOS Big Sur.
+    This repo is currently compatible with macOS Big Sur & catalina.
 
 
 *    OpenCore Updates
