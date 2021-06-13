@@ -65,11 +65,11 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 | ------------- | ------------- |
 | Model         |   Mi notebook 14  |
 | Processor     |    intel core (i3-10110U/ i5-10210U/ i7-10510U) |
-| Generation.   | 10th Gen. Coffee Lake|
+| Generation.   | 10th Gen. Comet Lake|
 | Memory        | 8GB 2666MHz DDR4 RAM|
 | Storage       |SATA 3 SSD, NVMe SSD|
 | Graphics      | Integrated intel UHD, NVIDIA® GeForce® MX350|
-| Sound card    | Realtek ALC256(layout-id: 69)|
+| Sound card    | Realtek ALC256(layout-id: 88)|
 | Wireless card | intel Wireless AC 9462|
 | Trackpad      |I2C ELAN2304|
 
