@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
-#### This repo is currently compatible with macOS Big Sur...
+#### This repo is currently compatible with macOS Big Sur and Catalina
 |     macOS Big Sur      |     macOS Catalina     |      
 |------------------------|------------------------|
 |     11.4   (20F71)     |     10.15.7  (19H15)   |  
