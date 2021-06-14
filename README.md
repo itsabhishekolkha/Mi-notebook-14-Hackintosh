@@ -24,10 +24,10 @@
 * Please do not **clone or download** the main branch for daily use: it may include u**nstable code** just because it is my repository.
 
 * If you find this bootloader configuration useful, consider **giving** it **a star** to make it more visible.
-* If you find my work useful, please consider donating via **PhonePay**, **Gpay** and **Paytm** on **9530033510**:heart:
+* If you find my work useful, please consider Give me a **Star** and follow me on **GitHub**:heart:
 
 ### Introduction
-This repo contains information for getting macOS working on a **mi NoteBook 14** (all Edition) laptop.
+This repo contains information for getting macOS working on a **mi NoteBook 14** (all Edition) laptop.ive 
 
 This is intended to create a "fully" functional (as far as possible) hackintosh for the Mi noteBook 14. If you would like to get started with creating a hackintosh on your Mi NoteBoook 14 but have non experience, I would highly recommend following [Dortania's OpenCore Install guide](https://dortania.github.io/OpenCore-Install-Guide/) and then returning here for troubleshooting. With each new release of macOS we need to resolve each new "minor issue" we run into. The installation is not perfect yet since it's a continuos work-in-progress, but I'm glad to say that **I learned a lot in the meantime**. All of the steps I made to get to this point were a result of countless hours of reading along with trial and error. I am by no means an expert so any help to get this project functional is very appreciated!
 
