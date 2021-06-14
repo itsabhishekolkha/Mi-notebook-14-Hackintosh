@@ -77,7 +77,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **Intel UHD 620** Graphics card
 - [x] **Intel Wifi**
 - [x] **Bluetooth**
-- [x] **Audio**
+- [x] **Audio** Streo/Mono sound using **headphone jack**
 - [x] **Battery** status
 - [x] **Keyboard** working with all **functions**(Alt=command, windows= Option etc.)
 - [x] **Touchpad** working with all **gestures**
@@ -96,7 +96,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 *    OpenCore Updates
 *     0.7.0 Updated
 *    Major changes in Repository on 
-*     Fri 12 Jun 2021
+*     Fri 14 Jun 2021
 
 ## OpenCore
 
