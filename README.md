@@ -182,10 +182,6 @@ MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 - Reboot
     </details>
 
-# NOTE 
-
-**Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.**
-
 ## Update tracker
 
 | Item | Version | Remark |
