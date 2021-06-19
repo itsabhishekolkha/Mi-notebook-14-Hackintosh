@@ -98,7 +98,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
      
 *    **EFI** tested on 
 *       Mi Notebook 14 10th Generation Intel® Core™ i5(Intel® UHD Graphics 620)
-        Mi NoteBook 14 e-Learning Edition** 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
+        Mi NoteBook 14 e-Learning Edition 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
 *     Fri 17 Jun 2021
 
 ## OpenCore
