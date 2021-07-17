@@ -3,17 +3,17 @@
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
 #### This repo is currently compatible with macOS Big Sur and Catalina
-|     macOS Big Sur      |     macOS Catalina     |      
-|------------------------|------------------------|
-|     11.4   (20F71)     |     10.15.7  (19H15)   |  
-|     11.3.1 (20E241)    |     10.15.6  (19G2021) |    
-|     11.3   (20E232)    |     10.15.5  (19F101)  |
-|     11.2.3 (20D91)     |     10.15.4  (19E287)  |   
-|     11.2.2 (20D80)     |     10.15.3  (19D76)   |   
-|     11.2.1 (20D74)     |     10.15.2  (19C57)   |     
-|     11.2   (20D64)     |     10.15.1  (19B88)   |      
-|     11.1   (20C69)     |     10.15    (19A583)  |             
-|     11.0.1 (20B29)     |                        |          
+|     macOS Big Sur      |     macOS Catalina     |   macOS monterey      |      
+|------------------------|------------------------|-----------------------|
+|     11.4   (20F71)     |     10.15.7  (19H15)   |  12.0(Beta) 21A5248P  |
+|     11.3.1 (20E241)    |     10.15.6  (19G2021) |                       |
+|     11.3   (20E232)    |     10.15.5  (19F101)  |                       |   
+|     11.2.3 (20D91)     |     10.15.4  (19E287)  |                       |
+|     11.2.2 (20D80)     |     10.15.3  (19D76)   |                       |
+|     11.2.1 (20D74)     |     10.15.2  (19C57)   |                       | 
+|     11.2   (20D64)     |     10.15.1  (19B88)   |                       |   
+|     11.1   (20C69)     |     10.15    (19A583)  |                       |
+|     11.0.1 (20B29)     |                        |                       |
 
 
 
@@ -61,17 +61,17 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 # Configuration
 
-| Specification | Details |
-| ------------- | ------------- |
-| Model         |   Mi notebook 14  |
+| Specification | Details                                         |
+| ------------- | ------------------------------------------------|
+| Model         |   Mi notebook 14                                |     
 | Processor     |    intel core (i3-10110U/ i5-10210U/ i7-10510U) |
-| Generation.   | 10th Gen. Comet Lake|
-| Memory        | 8GB 2666MHz DDR4 RAM|
-| Storage       |SATA 3 SSD, NVMe SSD|
-| Graphics      | Integrated intel UHD, NVIDIA® GeForce® MX350|
-| Sound card    | Realtek ALC256(layout-id: 88)|
-| Wireless card | intel Wireless AC 9462|
-| Trackpad      |I2C ELAN2304|
+| Generation.   | 10th Gen. Comet Lake                            |
+| Memory        | 8GB 2666MHz DDR4 RAM                            |
+| Storage       |SATA 3 SSD, NVMe SSD                             |
+| Graphics      | Integrated intel UHD,~~NVIDIA® GeForce® MX350~~ |
+| Sound card    | Realtek ALC256(layout-id: 88)                   | 
+| Wireless card | intel Wireless AC 9462                          |
+| Trackpad      |I2C ELAN2304                                     |
 
 ### Status
 - [x] **Intel UHD 620** Graphics card
@@ -95,8 +95,11 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 
 *    OpenCore Updates
 *     0.7.0 Updated
-*    Major changes in Repository on 
-*     Fri 14 Jun 2021
+     
+*    **EFI** tested on 
+*       Mi Notebook 14 10th Generation Intel® Core™ i5(Intel® UHD Graphics 620)
+        Mi NoteBook 14 e-Learning Edition 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
+*     Fri 17 Jun 2021
 
 ## OpenCore
 
@@ -181,10 +184,6 @@ MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 
 - Reboot
     </details>
-
-# NOTE 
-
-**Due to file size grater than 25mb a direct download link is provided in the EFI folder give above.**
 
 ## Update tracker
 
