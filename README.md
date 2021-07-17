@@ -88,7 +88,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **Mic** Will working... Follow the guide below.
 - [x] **HDMI** up to two 4K @60 Hz monitors
 - [x] **Native Color Profile**
-- [x] **Power managment (Native Power Management via CFG Lock) 
+- [x] **Power managment (Native Power Management via CFG Lock)**
 
 ## Repo Updates
     This repo is currently compatible with macOS Big Sur, catalina and Monterey.
