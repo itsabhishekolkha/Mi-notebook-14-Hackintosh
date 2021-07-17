@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
-#### This repo is currently compatible with macOS Big Sur and Catalina
+#### This repo is currently compatible with macOS Big Sur, Catalina and Monterey
 |     macOS Big Sur      |     macOS Catalina     |   macOS monterey      |      
 |------------------------|------------------------|-----------------------|
 |     11.4   (20F71)     |     10.15.7  (19H15)   |  12.0(Beta) 21A5248P  |
@@ -27,7 +27,7 @@
 * If you find my work useful, please consider Give me a **Star** and follow me on **GitHub**:heart:
 
 ### Introduction
-This repo contains information for getting macOS working on a **mi NoteBook 14** (all Edition) laptop.ive 
+This repo contains information for getting macOS working on a **mi NoteBook 14** (all Edition) laptop. 
 
 This is intended to create a "fully" functional (as far as possible) hackintosh for the Mi noteBook 14. If you would like to get started with creating a hackintosh on your Mi NoteBoook 14 but have non experience, I would highly recommend following [Dortania's OpenCore Install guide](https://dortania.github.io/OpenCore-Install-Guide/) and then returning here for troubleshooting. With each new release of macOS we need to resolve each new "minor issue" we run into. The installation is not perfect yet since it's a continuos work-in-progress, but I'm glad to say that **I learned a lot in the meantime**. All of the steps I made to get to this point were a result of countless hours of reading along with trial and error. I am by no means an expert so any help to get this project functional is very appreciated!
 
@@ -88,23 +88,24 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **Mic** Will working... Follow the guide below.
 - [x] **HDMI** up to two 4K @60 Hz monitors
 - [x] **Native Color Profile**
+- [x] **Power managment (Native Power Management via CFG Lock) 
 
 ## Repo Updates
-    This repo is currently compatible with macOS Big Sur & catalina.
+    This repo is currently compatible with macOS Big Sur, catalina and Monterey.
 
 
 *    OpenCore Updates
-*     0.7.0 Updated
+*     0.7.1 Updated
      
 *    **EFI** tested on 
 *       Mi Notebook 14 10th Generation Intel® Core™ i5(Intel® UHD Graphics 620)
         Mi NoteBook 14 e-Learning Edition 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
-*     Fri 17 Jun 2021
+*     Sat 17 Jul 2021
 
 ## OpenCore
 
 * Current OpenCore version of **EFI** is-
-*     OpenCore 0.7.0
+*     OpenCore 0.7.1
 
 ### Benchmark Tests
 
@@ -190,23 +191,23 @@ MacOS HiDPI [Click Here.](https://github.com/xzhih/one-key-hidpi)
 | Item | Version | Remark |
 | :--- | :--- | :--- |
 | MacOS | 11.4 | |
-| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.0 | Default Bootloader|
-| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | Kext/process/framework/library patcher |
-| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 | Handle Graphics card |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 | Handle/fix onboard audio |
+| [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.1 | Default Bootloader|
+| [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.4 | Kext/process/framework/library patcher |
+| [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.1 | Handle Graphics card |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.2 | Handle/fix onboard audio |
 | [CodecCommander](https://github.com/Sniki/EAPD-Codec-Commander/releases) | 2.7.2 | Fix headphone audio switch |
-| [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.3 | Power management |
-| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.0 | Handle hibernate status |
+| [CPUFriend](https://github.com/acidanthera/CPUFriend/releases) | 1.2.4 | Power management |
+| [HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.4.1 | Handle hibernate status |
 | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) | 1.1.2 | Handle Bluetooth |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.0.0 beta| Handle native Wi-Fi card |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 1.3.0 beta| Handle native Wi-Fi card |
 | [NullEthernet](https://bitbucket.org/RehabMan/OS-X-Null-Ethernet/downloads/) | 1.0.6 | Fake Ethernet card |
 | [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases) | 1.0.4 | Disable TouchID|
-| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 | Fix for NVMe SSDs |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.1 | Block unwanted processes |
-| [VoodooI2C](https://github.com/alexandred/VoodooI2C/releases) | 2.5.2 | Handle I2C device |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 | Fix for NVMe SSDs |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases) | 1.0.3 | Block unwanted processes |
+| [VoodooI2C](https://github.com/alexandred/VoodooI2C/releases) | 2.6.5 | Handle I2C device |
 | [VoodooI2CHID](https://github.com/alexandred/VoodooI2C/releases) | 2.5.2 | Touchpad I2C satellite |
-| [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases) | 2.2.3 | Enable keyboard, alternative trackpad driver |
-| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 | SMC chip emulation |
+| [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases) | 2.2.4 | Enable keyboard, alternative trackpad driver |
+| [VirtualSMC + plugins](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.5 | SMC chip emulation |
 | [USBInjectAll](https://github.com/daliansky/OS-X-USB-Inject-All/releases) | 0.7.6 | Inject USB ports |
 
 # Credits
