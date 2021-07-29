@@ -5,7 +5,9 @@
 #### This repo is currently compatible with macOS Big Sur, Catalina and Monterey
 |     macOS Big Sur      |     macOS Catalina     |   macOS monterey      |      
 |------------------------|------------------------|-----------------------|
-|     11.4   (20F71)     |     10.15.7  (19H15)   |  12.0(Beta) 21A5248P  |
+|     11.5.1 (20G80)     |                        |                       |
+|     11.5	 (20G71)     |                        | 12.0 Beta 4(21A5294G) |
+|     11.4   (20F71)     |     10.15.7  (19H15)   | 12.0 Beta 1(21A5248P) |
 |     11.3.1 (20E241)    |     10.15.6  (19G2021) |                       |
 |     11.3   (20E232)    |     10.15.5  (19F101)  |                       |   
 |     11.2.3 (20D91)     |     10.15.4  (19E287)  |                       |
@@ -100,6 +102,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 *    **EFI** tested on 
 *       Mi Notebook 14 10th Generation Intel® Core™ i5(Intel® UHD Graphics 620)
         Mi NoteBook 14 e-Learning Edition 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
+      
 *     Sat 17 Jul 2021
 
 ## OpenCore
