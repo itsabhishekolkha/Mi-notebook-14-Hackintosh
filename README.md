@@ -86,7 +86,7 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **HandOff**
 - [x] **Sleep**
 - [x] **Camera**
-- [x] **Face Time and imessage** will work after SMBIOS edit.
+- [x] **Face Time and imessage** -> **WORKING**
 - [x] **Mic** Will working... Follow the guide below.
 - [x] **HDMI** up to two 4K @60 Hz monitors
 - [x] **Native Color Profile**
