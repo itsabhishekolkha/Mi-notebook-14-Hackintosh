@@ -1,4 +1,7 @@
 # macOS  on Mi NoteBook 14
+![License](https://img.shields.io/github/license/itsabhishekolkha/Mi-notebook-14-Hackintosh)
+![Build Status](https://img.shields.io/github/workflow/status/itsabhishekolkha/Mi-notebook-14-Hackintosh/CI)
+![macOS Version](https://img.shields.io/badge/macOS%20version-15.0-blue)
 
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
@@ -129,6 +132,10 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 * **Compute**(Performance of GPUs at performing common compute task.)
 
 ![image](https://user-images.githubusercontent.com/77840685/121767702-9073ff80-cb77-11eb-8fe0-6570506de890.png)
+
+## Troubleshooting  
+**Q: It’s not working! What should I do?**  
+A: Take a deep breath, grab a cup of coffee, and check the logs. We’ve all been there! 🐢
  
 ## Post - Install Settings
 <details>
@@ -146,7 +153,7 @@ Suggested configuration:
 <details>
 <summary><strong>Enable Apple Services</strong></summary>
 
-Default **SMBIOS** settings of this repo is `MacBookPro16,3` ~~`MacBookPro14,1`~~ ~~`MacBookPro15,2`~~
+Default **SMBIOS** settings of this repo is `MacBookPro16,2` ~~`MacBookPro14,1`~~ ~~`MacBookPro15,2`~~
 1. Launch `Terminal` app
 2. Copy the following script, paste it into the `Terminal` window, then press `Enter`
    ```bash
@@ -155,7 +162,7 @@ Default **SMBIOS** settings of this repo is `MacBookPro16,3` ~~`MacBookPro14,1`~
 3. Type `2`, then press `Enter`
 4. Drag your `config.plist` inside the `Terminal` window
 5. Type `3`, then press `Enter`
-6. Type `MacBookPro16,3`, then press `Enter`
+6. Type `MacBookPro16,2`, then press `Enter`
 </details>
 
 <details>
