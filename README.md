@@ -2,21 +2,28 @@
 
 ![image](https://user-images.githubusercontent.com/77840685/121693914-33c90400-cae7-11eb-8285-576b83f1598c.png)
 
-#### This repo is currently compatible with macOS Big Sur, Catalina and Monterey
-|     macOS Big Sur      |     macOS Catalina     |   macOS monterey      |      
-|------------------------|------------------------|-----------------------|
-|     11.5.1 (20G80)     |                        |                       |
-|     11.5	 (20G71)     |                        | 12.0 Beta 4(21A5294G) |
-|     11.4   (20F71)     |     10.15.7  (19H15)   | 12.0 Beta 1(21A5248P) |
-|     11.3.1 (20E241)    |     10.15.6  (19G2021) |                       |
-|     11.3   (20E232)    |     10.15.5  (19F101)  |                       |   
-|     11.2.3 (20D91)     |     10.15.4  (19E287)  |                       |
-|     11.2.2 (20D80)     |     10.15.3  (19D76)   |                       |
-|     11.2.1 (20D74)     |     10.15.2  (19C57)   |                       | 
-|     11.2   (20D64)     |     10.15.1  (19B88)   |                       |   
-|     11.1   (20C69)     |     10.15    (19A583)  |                       |
-|     11.0.1 (20B29)     |                        |                       |
+#### This repo is currently compatible with macOS Big Sur, Catalina, Monterey, Ventura, Sonoma, and Sequoia
 
+|     macOS Catalina     |     macOS Big Sur      |   macOS Monterey      |    macOS Ventura     |    macOS Sonoma     |    macOS Sequoia    |
+|------------------------|------------------------|-----------------------|----------------------|---------------------|---------------------|
+|                        |                        |                       |                      |                     |                     |
+|         10.0           |          11.0          |        12.0           |         13.1         |        14.0         |         15.0        |
+|         10.1           |          11.1          |        12.1           |         13.2         |        14.1         |         15.1        |
+|         10.2           |          11.2          |        12.2           |         13.3         |        14.2         |         15.2        |
+|           .            |           .            |          .            |           .          |          .          |           .         |   
+|           .            |           .            |          .            |           .          |          .          |           .         |
+|           .            |           .            |          .            |           .          |          .          |           .         |
+|         Current        |        Current         |       Current         |        Current       |       Current       |        Current      | 
+
+
+# Table of Contents
+- [Introduction](#introduction)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [What's Working](#whats-working)
+- [Post-Installation](#post-installation)
+- [Troubleshooting](#troubleshooting)
+- [Credits](#credits)
 
 
 ### DISCLAIMER
@@ -75,8 +82,8 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 | Wireless card | intel Wireless AC 9462                          |
 | Trackpad      |I2C ELAN2304                                     |
 
-### Status
-- [x] **Intel UHD 620** Graphics card
+### What's Working
+- [x] **Intel UHD 620** Graphics card (**Metal 3 supported**)
 - [x] **Intel Wifi**
 - [x] **Bluetooth**
 - [x] **Audio** Streo/Mono sound using **headphone jack**
@@ -84,31 +91,34 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 - [x] **Keyboard** working with all **functions**(Alt=command, windows= Option etc.)
 - [x] **Touchpad** working with all **gestures**
 - [x] **HandOff**
+- [x] **Contunity** Only some feature works
 - [x] **Sleep**
 - [x] **Camera**
 - [x] **Face Time and imessage** -> **WORKING**
-- [x] **Mic** Will working... Follow the guide below.
+- [x] **Mic** (Intel SST doesn't work in mac so you'll need to use your bluetooth)... Follow the guide below for Combojack but not worth it.
 - [x] **HDMI** up to two 4K @60 Hz monitors
 - [x] **Native Color Profile**
-- [x] **Power managment (Native Power Management via CFG Lock)**
+- [x] **Power managment (Native Power Management)**(Power managemet is working like a real Mac for Intel Core i5 10210U using actual CPU Frequency of the processor. Below is the screenshot...)
+![Screenshot 2025-03-03 at 15 17 28](https://github.com/user-attachments/assets/95b4ab99-b114-4824-a0e0-4a8ea673a211)
+**Note-** Power managemet is working only for this specific CPU as i don't own any other Laptop.
 
 ## Repo Updates
-    This repo is currently compatible with macOS Big Sur, catalina and Monterey.
+    This repo is currently compatible with macOS Big Sur, catalina, Monterey, Vantura, Sonama, Sequoia.
 
 
 *    OpenCore Updates
-*     0.7.1 Updated
+*     1.0.3 Updated
      
 *    **EFI** tested on 
 *       Mi Notebook 14 10th Generation Intel® Core™ i5(Intel® UHD Graphics 620)
         Mi NoteBook 14 e-Learning Edition 10th Generation Intel® Core™ i3(Intel® UHD Graphics 620)
       
-*     Sat 17 Jul 2021
+*     MON 03 MAR 2025
 
 ## OpenCore
 
 * Current OpenCore version of **EFI** is-
-*     OpenCore 0.7.1
+*     OpenCore 1.0.3
 
 ### Benchmark Tests
 
